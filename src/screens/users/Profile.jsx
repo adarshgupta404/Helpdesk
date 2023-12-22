@@ -7,7 +7,7 @@ const Profile = () => {
   return (
     <div className="px-5 font-sanchez sm:px-14 lg:px-24 ">
       <div className="pt-5 text-3xl">User profile</div>
-      <div className="h-[calc(30rem-64px)] mb-2 overflow-y-auto mt-5 bg-[#55D6C2AD]">
+      <div className="h-[calc(100dvh-64px-48px-70px)]  mb-2 overflow-y-auto mt-5 bg-[#55D6C2AD]">
         <div className="md:flex p-8 gap-5">
           <div className="bg-white rounded-xl md:w-1/2 mb-4 shadow-md hover:shadow-lg hover:shadow-[#939292] transition-shadow duration-300 shadow-[#939292]">
             <div className="pr-2 pt-2">
