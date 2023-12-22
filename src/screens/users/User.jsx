@@ -12,9 +12,9 @@ const Users = () => {
   return (
     <>
       <Navbar />
-      <div className="flex w-full h-[calc(100vh-64px)] overflow-auto md:overflow-none">
+      <div className="flex w-full h-[calc(100dvh-64px)] overflow-auto md:overflow-none">
         <UserSidebar />
-        <div className="h-[calc(100vh-64px)] w-[100dvw] md:w-[calc(100vw-224px)] flex flex-col justify-between overflow-hidden">
+        <div className="h-[calc(100dvh-64px)] w-[100dvw] md:w-[calc(100dvw-224px)] flex flex-col justify-between overflow-hidden">
           <div className="">
             <Outlet />
           </div>

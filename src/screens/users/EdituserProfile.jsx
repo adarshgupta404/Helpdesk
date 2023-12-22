@@ -2,7 +2,7 @@ import React from "react";
 
 const EdituserProfile = () => {
   return (
-    <div className="px-5 font-sanchez sm:px-14 lg:px-24 h-[calc(100vh-64px-48px)]">
+    <div className="px-5 font-sanchez sm:px-14 lg:px-24 h-[calc(100dvh-64px-48px)]">
       <div className="pt-5 text-3xl">User profile</div>
       <div className="h-[calc(100vh-64px-48px-70px)] overflow-x-auto">
         <div className="text-lg mt-4 block w-full md:w-auto">

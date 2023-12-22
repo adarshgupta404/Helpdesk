@@ -3,7 +3,7 @@ import { FaMagnifyingGlass } from "react-icons/fa6";
 import TicketTable from "./Tickettable";
 const Myticket = () => {
   return (
-    <div className="relative font-sanchez h-[calc(100vh-64px-48px)] md:w-[calc(100vw-224px)] overflow-x-auto md:overflow-x-none overflow-y-auto">
+    <div className="relative font-sanchez h-[calc(100dvh-64px-48px)] md:w-[calc(100dvw-224px)] overflow-x-auto md:overflow-x-none overflow-y-auto">
       <div className="font-sanchez flex py-5 font-medium w-full text-3xl justify-center items-center">
         List Of Tickets
       </div>
