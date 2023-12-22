@@ -35,7 +35,7 @@ const UserSidebar = () => {
           >
             <FaChevronRight className={`${first ? "" : "text-transparent"}`} />
             <div className="flex justify-center items-center">
-              <MdDashboard size={"1.7rem"} />
+              <MdDashboard size={"1.4rem"} />
               <div className="md:block hidden">Dashboard</div>
             </div>
           </NavLink>
