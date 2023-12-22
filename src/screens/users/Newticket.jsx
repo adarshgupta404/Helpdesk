@@ -3,7 +3,7 @@ import ReCAPTCHA from "react-google-recaptcha";
 import { CgAttachment } from "react-icons/cg";
 const Newticket = () => {
   return (
-    <div className="relative font-sanchez h-[calc(100vh-64px-48px)] overflow-x-auto md:overflow-x-none overflow-y-auto">
+    <div className="relative font-sanchez h-[calc(100dvh-64px-48px)] overflow-x-auto md:overflow-x-none overflow-y-auto">
       <div className="font-sanchez w-full flex pt-5 pb-3 font-medium text-3xl justify-center items-center">
         Create New Ticket
       </div>
