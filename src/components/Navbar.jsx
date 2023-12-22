@@ -34,12 +34,12 @@ const Navbar = () => {
           <div className="cursor-pointer ">
             <FaBell size={"1.5rem"} />
           </div>
-          <NavLink
-            onClick={() => handleclick("nwt")}
-            to="/users/profile"
-          >
-            <FaUser size={"1.5rem"} />
-          </NavLink>
+          <button>
+            <NavLink to="/users/profile">
+              <FaUser size={"1.5rem"} />
+            </NavLink>
+          </button>
+
           <NavLink to="" className="">
             <FaSignOutAlt size={"1.5rem"} />
           </NavLink>
